@@ -1,0 +1,311 @@
+[07/10/2025 05:38:05 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1857, in cb_handler
+    await client.edit_message_media(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\edit_message_media.py", line 299, in edit_message_media
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+[07/10/2025 05:38:16 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1862, in cb_handler
+    await query.message.edit_text(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+[07/10/2025 05:38:17 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1971, in cb_handler
+    await query.message.edit_text(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message was not modified because you tried to edit it using the same content
+[07/10/2025 05:38:17 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1867, in cb_handler
+    await query.answer(MSG_ALRT)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+[07/10/2025 05:38:17 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 2553, in cb_handler
+    await query.answer(MSG_ALRT)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+[07/10/2025 05:40:29 PM:pyrogram.dispatcher:376:ERROR] Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 371, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1379, in cb_handler
+    await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\pm_filter.py", line 1388, in cb_handler
+    await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\bots_and_keyboards\callback_query.py", line 171, in answer
+    return await self._client.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\bots\answer_callback_query.py", line 74, in answer_callback_query
+    return await self.invoke(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\errors\rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.QueryIdInvalid: Telegram says: [400 QUERY_ID_INVALID] (caused by "messages.SetBotCallbackAnswer") Pyrogram 2.3.45 thinks: The callback query id is invalid
+[07/10/2025 05:59:49 PM:plugins.index:186:ERROR] Connection lost
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\index.py", line 158, in index_files_to_db
+    await msg.edit_text(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 433, in invoke
+    raise e from None
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 360, in send
+    raise e
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    await self.connection.send(payload)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\connection.py", line 81, in send
+    await self.protocol.send(data)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 39, in send
+    await super().send(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 150, in send
+    raise OSError(e)
+OSError: Connection lost
+[07/10/2025 06:00:04 PM:pyrogram.dispatcher:376:ERROR] Connection lost
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\commands.py", line 602, in start
+    await msg.delete()
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 4740, in delete
+    return await self._client.delete_messages(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\delete_messages.py", line 79, in delete_messages
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 433, in invoke
+    raise e from None
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 360, in send
+    raise e
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    await self.connection.send(payload)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\connection.py", line 81, in send
+    await self.protocol.send(data)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 39, in send
+    await super().send(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 150, in send
+    raise OSError(e)
+OSError: Connection lost
+[07/10/2025 06:02:39 PM:pyrogram.dispatcher:376:ERROR] Connection lost
+Traceback (most recent call last):
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\handlers\callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\index.py", line 55, in index_files
+    await index_files_to_db(int(lst_msg_id), chat, msg, bot)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\FILTERBOT-TECH_VJ\plugins\index.py", line 187, in index_files_to_db
+    k = await msg.edit(f'Error: {e}')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 443, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 7 more times]
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 433, in invoke
+    raise e from None
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 360, in send
+    raise e
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    await self.connection.send(payload)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\connection.py", line 81, in send
+    await self.protocol.send(data)
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 39, in send
+    await super().send(
+  File "C:\Users\REFL\Downloads\FILTERBOT-Tech_VJ\venv\Lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 150, in send
+    raise OSError(e)
+OSError: Connection lost
